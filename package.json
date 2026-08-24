@@ -1,0 +1,11 @@
+{
+  "name":"project-digital-twin",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "description":"Portable read-only repository architecture mapper with normalized graph queries and drift planning.",
+  "bin":{"project-digital-twin":"./src/cli.mjs"},
+  "scripts":{"test":"node --test tests/*.test.mjs","check":"node --check src/*.mjs","demo":"node src/cli.mjs demo --out reports/demo"},
+  "engines":{"node":">=22"},
+  "license":"MIT"
+}
