@@ -68,3 +68,9 @@ The suite uses temporary synthetic repositories and covers import/link parsing, 
 ## License
 
 MIT.
+
+## Live Render Demo
+
+A responsive, synthetic/demo report is available at [https://project-digital-twin.onrender.com](https://project-digital-twin.onrender.com). The hosted view is read-only and preserves the repository's documented local-first boundaries.
+
+<!-- render-live-url:https://project-digital-twin.onrender.com -->
