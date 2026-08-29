@@ -1,3 +1,10 @@
+/*
+ * ============================================================
+ * FILE: twin.test.mjs
+ * PURPOSE: Exercises Project Digital Twin's domain behavior, validation, persistence, reporting, and safety boundaries with the Node.js test runner.
+ * ============================================================
+ */
+
 import assert from "node:assert/strict";
 import test from "node:test";
 import { mkdtemp,readFile,rm } from "node:fs/promises";

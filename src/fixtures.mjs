@@ -1,3 +1,10 @@
+/*
+ * ============================================================
+ * FILE: fixtures.mjs
+ * PURPOSE: Provides deterministic synthetic fixtures for Project Digital Twin's demonstrations and regression tests.
+ * ============================================================
+ */
+
 import { execFile } from "node:child_process";
 import { mkdir,rm,writeFile } from "node:fs/promises";
 import { join,resolve } from "node:path";

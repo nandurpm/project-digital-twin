@@ -1,3 +1,10 @@
+/*
+ * ============================================================
+ * FILE: twin.mjs
+ * PURPOSE: Builds and queries Project Digital Twin's repository graph, relationships, impact views, and architecture snapshots.
+ * ============================================================
+ */
+
 import { execFile } from "node:child_process";
 import { basename,relative,resolve } from "node:path";
 import { listRepositoryFiles,parseReferences,readTextFile,resolveReference } from "./adapters.mjs";

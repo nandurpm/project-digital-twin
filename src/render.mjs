@@ -1,3 +1,10 @@
+/*
+ * ============================================================
+ * FILE: render.mjs
+ * PURPOSE: Generates and serves Project Digital Twin's demonstration report through a deployment-friendly HTTP host.
+ * ============================================================
+ */
+
 import { spawn } from 'node:child_process';
 import { createReadStream } from 'node:fs';
 import { access, readdir, readFile } from 'node:fs/promises';

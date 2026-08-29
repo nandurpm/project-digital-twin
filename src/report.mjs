@@ -1,3 +1,10 @@
+/*
+ * ============================================================
+ * FILE: report.mjs
+ * PURPOSE: Builds Project Digital Twin's self-contained report artifacts and browser-side interactions from validated data.
+ * ============================================================
+ */
+
 import { mkdir,writeFile } from "node:fs/promises";
 import { join,resolve } from "node:path";
 

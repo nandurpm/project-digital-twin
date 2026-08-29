@@ -1,4 +1,11 @@
 #!/usr/bin/env node
+/*
+ * ============================================================
+ * FILE: cli.mjs
+ * PURPOSE: Implements Project Digital Twin's command-line interface and coordinates validation, persistence, report generation, and local serving.
+ * ============================================================
+ */
+
 import { readFile,writeFile } from "node:fs/promises";
 import { createReadStream,existsSync } from "node:fs";
 import { createServer } from "node:http";

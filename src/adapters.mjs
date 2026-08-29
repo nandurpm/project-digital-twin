@@ -1,3 +1,10 @@
+/*
+ * ============================================================
+ * FILE: adapters.mjs
+ * PURPOSE: Collects supported platform observations for Project Digital Twin and provides explicit safe fallbacks where collection is unavailable.
+ * ============================================================
+ */
+
 import { opendir,readFile,stat } from "node:fs/promises";
 import { dirname,extname,normalize,relative,resolve,sep } from "node:path";
 
